@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    padding: 30px 400px;
+    
+    font-family: sans-serif;
+    line-height: 22px;
+}
+header{
+    display: flex;
+    border: 1px solid grey;
+}
+    /* left_section start from here */
+.left-section{
+    color: white;
+    padding: 20px;
+    background-color: #003d74;
+    width: 100%;
+    flex-shrink: 3;
+}
+.section{
+    background-color: #002e58;
+    margin: 10px -20px 10px -20px;
+    padding: 5px 20px;
+}
+    /* profile start */
+.profile{
+    margin-bottom: 15px;
+    padding: 0px;
+}
+.name{
+    margin-bottom: 10px;
+}
+.position{
+
+}
+    /* profile end */
+
+    /* personal info start */
+.personal-info{
+    
+}
+
+.address{
+    margin-bottom: 10px;
+}
+.phone{
+    margin-bottom: 10px;
+}
+.email{
+    margin-bottom: 10px;
+}
+.linkedin a{
+    color: white;
+}
+    /* personal info end */
+
+    /* skills start */
+.skills{
+
+}
+
+.skills p{
+    margin: 5px 0px;
+}
+    /* skills end */
+
+    /* software start */
+.software{
+
+}
+
+.container{
+    margin: 5px 0px;
+    width: 100%;
+    background-color: #002e58;
+}
+.level{
+    text-align: right;
+}
+.skill{
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+.skill-container{
+    margin: 10px 0px;
+}
+.microsoft-project{
+    width: 100%; 
+}
+
+.ms-Windows-Server{
+    width: 80%; 
+}
+
+.linux{
+    width: 80%; 
+}
+
+.microsoft-excel{
+    width: 60%; 
+}
+    /* software end */
+
+    /* language start */
+.languages{
+
+}
+
+.language-container{
+
+}
+.bangla{
+    width: 60%;
+}
+.english{
+    width: 20%;
+}
+    /* language end */
+
+    /* left_section end here */
+
+    /* right_section start here */
+
+.right-section{
+    width: 100%;
+    flex-shrink: 1;
+    padding: 20px;
+}
+.right-section article{
+    display: flex;
+    margin: 20px 0px;
+}
+.heading{
+    padding: 5px 0px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+}
+.description{
+    margin-bottom: 20px;
+}
+.experience{
+    
+}
+.experience-period{
+
+}
+.experience-description{
+    margin-left: 100px;
+}
+
+.education{
+
+}
+.education-period{
+
+}
+.education-description{
+    margin-left: 100px;
+}
+
+
+.certifications{
+
+}
+.certifications-period{
+
+}
+.certifications-description{
+    margin-left: 100px;
+}
+
+    /* right_section end here */
