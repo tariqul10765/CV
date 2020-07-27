@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 body{
-    padding: 30px 400px;
+    padding: 5% 20%;
     
     font-family: sans-serif;
     line-height: 22px;
@@ -152,6 +152,9 @@ header{
 .experience-period{
 
 }
+.company{
+    color: #aeafb0;
+}
 .experience-description{
     margin-left: 100px;
 }
@@ -178,3 +181,36 @@ header{
 }
 
     /* right_section end here */
+
+
+@media (max-width:1199px) and (min-width:768px){
+    body{
+        padding: 3% 10%;
+    }
+    
+}
+@media (max-width:767px) and (min-width:576px) {
+    body{
+        padding: 3% 10%;
+    }
+    header{
+        flex-direction: column;
+    }
+}
+@media (max-width:575px){
+    body{
+        padding: 3% 5%;
+    }
+    header{
+        flex-direction: column;
+    }
+    .experience-description{
+        margin-left: 50px;
+    }
+    .education-description{
+        margin-left: 50px;
+    }
+    .certifications-description{
+        margin-left: 50px;
+    }
+}
